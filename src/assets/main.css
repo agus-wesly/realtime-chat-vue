@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.p-listbox {
+  border: 1px solid #a3a3a3 !important;
+}
+
+.p-listbox-header {
+  background: transparent !important;
+  padding: 8px !important;
+}
+
+.p-listbox-filter-container .p-inputtext {
+  border: none !important;
+  padding: 8px;
+}
